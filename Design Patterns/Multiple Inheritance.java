@@ -1,16 +1,13 @@
 // A simple Java program to demonstrate multiple 
 // inheritance through default methods. 
-interface PI1 
-{ 
+interface PI1 { 
     // default method 
-    default void show() 
-    { 
+    default void show(){ 
         System.out.println("Default PI1"); 
     } 
 } 
   
-interface PI2 
-{ 
+interface PI2 { 
     // Default method 
     default void show() 
     { 
@@ -19,11 +16,9 @@ interface PI2
 } 
   
 // Implementation class code 
-class TestClass implements PI1, PI2 
-{ 
+class TestClass implements PI1, PI2 { 
     // Overriding default show method 
-    public void show() 
-    { 
+    public void show() { 
         // use super keyword to call the show 
         // method of PI1 interface 
         PI1.super.show(); 
@@ -33,8 +28,7 @@ class TestClass implements PI1, PI2
         PI2.super.show(); 
     } 
   
-    public static void main(String args[]) 
-    { 
+    public static void main(String args[]) { 
         TestClass d = new TestClass(); 
         d.show(); 
     } 
