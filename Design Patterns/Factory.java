@@ -1,9 +1,17 @@
-//interface
+/** 
+ * #########################################################################
+ * ########################## interface ####################################
+ * #########################################################################
+ */ 
 interface Dog{
   public void speak ();
 }
 
-//The concrete Dog classes
+/** 
+ * #########################################################################
+ * #################### Concrete Dog classes ###############################
+ * #########################################################################
+ */ 
 class Poodle implements Dog{
   public void speak(){
     System.out.println("The poodle says arf");
@@ -22,7 +30,11 @@ class SiberianHusky implements Dog{
   }
 }
 
-//The Java Factory class
+/** 
+ * #########################################################################
+ * ##################### Java Factory class ################################
+ * #########################################################################
+ */ 
 class DogFactory{
 
   public static Dog getDog(String criteria){
@@ -37,7 +49,12 @@ class DogFactory{
   }
 }
 
-//The Java Factory pattern example driver program
+
+/** 
+ * #########################################################################
+ * ############ Java Factory pattern example driver program ################
+ * #########################################################################
+ */ 
 /**
  * A "driver" program to demonstrate my "dog factory".
  * @author alvin alexander, alvinalexander.com
