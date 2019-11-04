@@ -1,4 +1,6 @@
-// A simple Java program to demonstrate multiple 
+package designpatterns.multipleinheritance;
+
+// A simple Java program to demonstrate multiple
 // inheritance through default methods. 
 interface PI1 { 
     // default method 

@@ -1,4 +1,4 @@
-package fr.dalichamp.romain.designpatterns.factory;
+package designpatterns.factory;
 
 public interface Travel {
     public Country visitCountry(String criteria);

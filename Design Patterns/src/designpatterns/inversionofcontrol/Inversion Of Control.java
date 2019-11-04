@@ -1,3 +1,5 @@
+package designpatterns.inversionofcontrol;
+
 //Your standard code would look something like this:
 public class TextEditor {
 

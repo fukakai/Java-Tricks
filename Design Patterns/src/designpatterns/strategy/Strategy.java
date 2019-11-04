@@ -1,4 +1,4 @@
-//From: https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
+package designpatterns.strategy;//From: https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
 /**
  * ##########################################################################
  * ########################### Interface ####################################

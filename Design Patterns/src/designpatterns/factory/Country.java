@@ -1,4 +1,4 @@
-package fr.dalichamp.romain.designpatterns.factory;
+package designpatterns.factory;
 
 public interface Country {
     void name();

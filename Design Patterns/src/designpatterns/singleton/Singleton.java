@@ -1,3 +1,5 @@
+package designpatterns.singleton;
+
 public class SingletonClass {
 
     private static SingletonClass SINGLE_INSTANCE = null;

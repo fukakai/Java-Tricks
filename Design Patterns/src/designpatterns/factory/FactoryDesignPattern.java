@@ -1,4 +1,4 @@
-package fr.dalichamp.romain.designpatterns.factory;
+package designpatterns.factory;
 
 public class FactoryDesignPattern {
     public static void main(String[] args){
